@@ -1,5 +1,10 @@
 import React from 'react'
 import './Navbar.css'
+import '../Skills/Skills.jsx'
+import '../WorkExperience/WorkExperience.jsx'
+import '../ContactMe/ContactMe.jsx'
+
+
 import logo  from './any.svg';
 
 const Navbar= () => {
@@ -13,16 +18,16 @@ const Navbar= () => {
                     <img src={logo} alt="logo" className='logo' />
                     <ul>
                         <li>
-                            <a className="menu-item">Home</a>
+                            <a href="/" className="menu-item">Home</a>
                         </li>
                         <li>
-                            <a className="menu-item" href='Skills/Skills.jsx'>Skills</a>
+                            <a className="menu-item" href="#Skills">Skills</a>
                         </li>
                         <li>
-                            <a className="menu-item" href='WorkExperience/WorkExperience.html'>Work Experience</a>
+                            <a className="menu-item" href='#Exp'>Work Experience</a>
                         </li>
                         <li>
-                            <a className="menu-item" href='ContactMe/ContactMe.jsx'>Contact Me</a>
+                            <a className="menu-item" href='#Cont'>Contact Me</a>
                         </li>
 
                         <button className='contact-btn' onClick={() => {}}>

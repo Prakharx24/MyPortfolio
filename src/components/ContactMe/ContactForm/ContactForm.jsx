@@ -1,19 +1,20 @@
 import React from 'react'
 import './ContactForm.css'
- const ContactForm = () => {
+const ContactForm = () => {
     return (
         <div className='contact-form-content'>
-            <form>
-                <div className='name-container'>
-                    <input type='text' name='firstname' placeholder='First Name'/>
-                    <input type='text' name='lastname' placeholder='Last Name'/>
+            <form style={{ display: 'flex', flexDirection: 'column' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                    <input type='text' name='firstname' placeholder='First Name' style={{ marginRight: '5px', width:"500px" }} />
+                    <input type='text' name='lastname' placeholder='Last Name' style={{ marginLeft: '5px' }} />
                 </div>
-                <br/>
-                <input type='text' name='email' placeholder='Email'/>
-                <textarea type='text' name='message' placeholder='Message' rows={3}/>
-                <button>SEND</button>
+                <input type='text' name='email' placeholder='Email' style={{ marginBottom: '10px' }} />
+                <textarea type='text' name='message' placeholder='Message' rows='3' style={{ marginBottom: '10px' }}></textarea>
+                <button style={{ alignSelf: 'flex-end' }}>SEND</button>
             </form>
+
+
         </div>
     )
- }
- export default ContactForm;
+}
+export default ContactForm;

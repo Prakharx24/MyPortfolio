@@ -6,7 +6,7 @@ import ExperienceCard from "./ExperienceCard/ExperienceCard";
 const WorkExperience = () => {
  
     return(
-        <section className="experience-container">
+        <section id="Exp" className="experience-container">
             <h5>Work Experience</h5>
                 <div className="experience-content">
                     {WORK_EXPERIENCE.map((item) =>(
