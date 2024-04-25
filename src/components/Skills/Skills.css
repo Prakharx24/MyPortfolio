@@ -1,0 +1,30 @@
+.skills-container {
+    margin: 4rem auto;
+    max-width: 865px;
+    position:relative ;
+}
+
+.skills-container h5 {
+    text-align:center;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 3.5rem;
+}
+
+.skills-content{
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+
+}
+
+.skills{
+    flex:1;
+    display: grid;
+    grid-gap: 4rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.skills-info{
+    flex: 1;
+}

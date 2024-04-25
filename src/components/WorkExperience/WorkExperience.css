@@ -1,0 +1,11 @@
+.experience-container {
+    margin: 4rem O;
+    position: relative;
+}
+
+.experience-container h5 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 3 rem;
+    text-align: center;
+}
