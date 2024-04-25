@@ -17,8 +17,7 @@ const ContactMe = () => {
                     <a href="https://github.com/Prakharx24"><ContactInfoCard
                     icon={img10}
                     text="My Github"
-                    style={{ color: 'yellow' }}
-                    /></a>
+                    style={{ color: 'white' }}  /></a>
                 </div>
             <div style={{ flex: 1}}>
                 <ContactForm />

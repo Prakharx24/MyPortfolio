@@ -2,6 +2,7 @@ import React from "react";
 import './Skills.css';
 import {SKILLS} from "../../utils/data"
 import SkillCard from "./SkillCard/SkillCard";
+console.log(SKILLS);
 const Skills = () => {
     return (
         <section id="Skills" className="skills-container">
@@ -15,11 +16,9 @@ const Skills = () => {
                             title={item.title}
                             />
                     ))}
-                    </div>
+                </div>
 
-                <div className="skills-info"></div>
-            </div>
-            
+                </div>
         </section>
     );
 };

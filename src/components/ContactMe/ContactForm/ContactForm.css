@@ -4,16 +4,16 @@
 
 form{
     display: flex;
-    align-items: center;
+    width: 800px;
+    align-items: right;
     grid-gap: 1.5rem;
 }
 
 .name-container{
     display: flex;
     align-items: center;
-    grid-gap: 1.5rem;
+    grid-gap: 2rem;
 }
-
 
 
 form input, 
@@ -31,6 +31,7 @@ form textarea{
 
 
 form button {
+    width: 350px;
     font-size: 1rem;
     font-weight: 500;
     color:#fff;
@@ -40,6 +41,7 @@ form button {
     padding: 0.7rem;
     transition: all 0.3s ease;
     cursor: pointer;
+
 }
 
 form button:hover{

@@ -2,8 +2,8 @@
     margin: 4rem e;
     position: relative;
 }
-.contact—container h5 {
-    font-size: 1.5rem;
+.contact—content h5{
+    font-size: 5rem;
     font-weight: 600;
     margin-bottom: 3rem;
 }
@@ -11,3 +11,13 @@
     display: flex;
     gap: 3rem;
 }
+#Cont h5 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+  
+  
